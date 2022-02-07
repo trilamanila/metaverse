@@ -11,7 +11,7 @@ function Login() {
         <Image
           className="rounded-full object-cover"
           src="/trilamanila.png"
-          p-4
+          alt="logo"
           height={150}
           width={150}
         />
