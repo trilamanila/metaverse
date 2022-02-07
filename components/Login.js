@@ -10,7 +10,7 @@ function Login() {
       <div className="absolute z-50 flex h-4/6 w-full flex-col items-center justify-center space-y-4">
         <Image
           className="rounded-full object-cover"
-          src="/../public/trilamanila.png"
+          src="/trilamanila.png"
           p-4
           height={150}
           width={150}
@@ -25,11 +25,7 @@ function Login() {
       </div>
 
       <div className="h-screen w-full">
-        <Image
-          src="/../public/background.jpg"
-          layout="fill"
-          objectFit="cover"
-        />
+        <Image src="/background.jpg" layout="fill" objectFit="cover" />
       </div>
     </div>
   )
