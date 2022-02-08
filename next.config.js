@@ -1,8 +1,6 @@
-const withImages = require('next-images')
-
-module.exports = withImages({
+module.exports = {
   images: {
-    disableStaticImages: false,
-    domains: ['avatars.dicebear.com'],
+    domains: ['images.unsplash.com'],
+    basePath: '/images',
   },
-})
+}
